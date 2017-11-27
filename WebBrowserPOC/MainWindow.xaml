@@ -6,6 +6,14 @@
         xmlns:local="clr-namespace:WebBrowserPOC"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
+
+    <Window.Resources>
+        <ContextMenu x:Key="MnuCustom" StaysOpen="True">
+            <MenuItem Header="Custom 1"></MenuItem>
+            <MenuItem Header="Custom 1"></MenuItem>
+            <MenuItem Header="Custom 3"></MenuItem>
+        </ContextMenu>
+    </Window.Resources>
     <Grid>
         <WebBrowser x:Name ="Browser"/>
 
